@@ -1,0 +1,55 @@
+h1{
+   text-align: center;
+}
+h3{text-align:left;}
+.right-image {
+    float: right;
+    margin-left: 20px; 
+}
+
+h4{
+    text-align: center;
+    color: blue;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 20px auto; /* Centers the table horizontally */
+    border: 2px solid rgb(47, 47, 209); /* Outer border */
+}
+
+/* Remove bold from headers */
+th {
+    font-weight: normal;
+    border: 2px solid blue;
+    padding: 8px;
+    text-align: center; /* Center align header content */
+}
+
+/* Cell styling */
+td {
+    border: 2px solid blue;
+    text-align: center;
+    padding: 8px;
+}
+
+/* Link styles */
+a {
+    color: green; /* Normal link color */
+    text-decoration: none; /* Removes underline */
+}
+
+a:visited {
+    color: red; /* Visited link color */
+}
+
+a:active {
+    color: blue; /* Active link color */
+}
+
+h2{
+    text-align: center;
+}
+

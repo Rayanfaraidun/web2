@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Registration</title>
+</head>
+<body>
+
+    <h1>Restaurant Reservation & Registration</h1>
+    <p>Fill out the form to register or make a reservation at our restaurant.</p>
+
+    <form action="/submit_registration" method="POST">
+        <!-- Full Name Field -->
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required placeholder="Enter your full name"><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email address"><br><br>
+
+        <!-- Phone Number Field -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number" pattern="[0-9]{10}"><br><br>
+
+        <!-- Reservation Date Field -->
+        <label for="reservation-date">Reservation Date:</label>
+        <input type="date" id="reservation-date" name="reservation-date" required><br><br>
+
+        <!-- Preferred Time Field -->
+        <label for="reservation-time">Preferred Time:</label>
+        <input type="time" id="reservation-time" name="reservation-time" required><br><br>
+
+        <!-- Number of People Field -->
+        <label for="num-people">Number of People:</label>
+        <input type="number" id="num-people" name="num-people" min="1" max="20" required><br><br>
+
+        <!-- Special Requests -->
+        <label for="special-requests">Special Requests:</label>
+        <textarea id="special-requests" name="special-requests" rows="4" cols="50" placeholder="Any dietary restrictions or special requests?"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Register / Reserve</button>
+    </form>
+
+</body>
+</html>
